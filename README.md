@@ -206,3 +206,10 @@ Projects
 Research / Job Analysis
 
 Contact
+
+
+Diseño en figma:
+https://www.figma.com/make/RgIh5spJEkXoVZ7RELFyAZ/Portfolio?t=CvwPFuvpzJUcFOaH-20&fullscreen=1
+
+Github pages:
+https://cristhofermurillovargas.github.io/Cristhofer_Portfolio/
