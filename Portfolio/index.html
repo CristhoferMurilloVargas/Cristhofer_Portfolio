@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Desarrollador Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════
+       NAV
+  ══════════════════════════ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo">Portfolio</a>
+      <button class="nav-toggle" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#quien-soy">Quien Soy</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+
+    <!-- ══════════════════════════
+         INICIO
+    ══════════════════════════ -->
+    <section id="inicio">
+
+      <!-- Hero -->
+      <div class="reveal">
+        <span class="hero-eyebrow">Desarrollador Web · Disponible</span>
+        <div class="hero-heading-wrap">
+          <h1 class="hero-heading">
+            Backend<br>
+            <em>engineer</em><br>
+            &amp; más.
+          </h1>
+          <div class="hero-tech-list">
+            <span class="hi">React</span>
+            <span class="hi">TypeScript</span>
+            <span class="lo">JavaScript</span>
+            <span class="lo">Node.js</span>
+            <span class="lo">Python</span>
+            <span class="lo">FastAPI</span>
+            <span class="lo">AWS</span>
+          </div>
+        </div>
+        <hr class="hero-divider">
+        <div class="hero-bottom">
+          <p class="hero-desc">
+            Especializado en desarrollo frontend con React y TypeScript. Actualmente
+            expandiendo stack hacia backend con Node.js, Python/FastAPI, y cloud computing.
+          </p>
+          <div class="hero-actions">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              Disponible para nuevas oportunidades
+            </div>
+            <a href="#proyectos" class="btn-cta">Ver proyectos →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sobre mí (strip) -->
+      <div class="section-2col reveal">
+        <div class="section-label">Sobre mí</div>
+        <div>
+          <p style="font-size:0.88rem;line-height:1.8;color:var(--text-muted);margin-bottom:1rem;">
+            Desarrollador web apasionado por crear experiencias digitales eficientes y escalables.
+            Con experiencia en desarrollo frontend y en constante aprendizaje de tecnologías backend y cloud.
+          </p>
+          <a href="#quien-soy" class="text-link">Conocerme mejor →</a>
+        </div>
+      </div>
+
+      <!-- Stack (strip) -->
+      <div class="section-2col reveal">
+        <div class="section-label">Stack técnico</div>
+        <div class="stack-grid">
+          <div class="stack-item"><span class="item-cat">Frontend</span><span class="item-name">React</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name">TypeScript</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name lo">JavaScript</span></div>
+          <div class="stack-item"><span class="item-cat">Backend</span><span class="item-name lo">Node.js</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name lo">Python</span></div>
+          <div class="stack-item"><span class="item-cat">Backend</span><span class="item-name lo">FastAPI</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name lo">Java</span></div>
+          <div class="stack-item"><span class="item-cat">Backend</span><span class="item-name lo">Spring Boot</span></div>
+          <div class="stack-item"><span class="item-cat">Cloud</span><span class="item-name lo">AWS</span></div>
+          <div class="stack-item"><span class="item-cat">Cloud</span><span class="item-name lo">GCP</span></div>
+          <div class="stack-item"><span class="item-cat">Explorando</span><span class="item-name lo">IA / LLMs</span></div>
+          <div class="stack-item"><span class="item-cat">Metodología</span><span class="item-name lo">Agile</span></div>
+        </div>
+      </div>
+
+      <!-- Proyectos preview -->
+      <div class="section-2col no-border reveal">
+        <div class="section-label">Proyectos<br>seleccionados</div>
+        <div>
+          <div class="preview-list">
+            <a href="#proyectos" class="preview-row">
+              <span class="preview-num">01</span>
+              <span class="preview-name">Dashboard de Analítica Interna</span>
+              <div class="preview-tags">
+                <span class="preview-tag">React</span>
+                <span class="preview-tag">TypeScript</span>
+                <span class="preview-tag">FastAPI</span>
+              </div>
+            </a>
+            <a href="#proyectos" class="preview-row">
+              <span class="preview-num">02</span>
+              <span class="preview-name">API de Notificaciones</span>
+              <div class="preview-tags">
+                <span class="preview-tag">Node.js</span>
+                <span class="preview-tag">GCP</span>
+              </div>
+            </a>
+            <a href="#proyectos" class="preview-row">
+              <span class="preview-num">03</span>
+              <span class="preview-name">Asistente IA para Docs</span>
+              <div class="preview-tags">
+                <span class="preview-tag">Python</span>
+                <span class="preview-tag">LLMs</span>
+              </div>
+            </a>
+            <a href="#proyectos" class="preview-row">
+              <span class="preview-num">04</span>
+              <span class="preview-name">Plataforma de Gestión de Tareas</span>
+              <div class="preview-tags">
+                <span class="preview-tag">React</span>
+                <span class="preview-tag">Spring Boot</span>
+              </div>
+            </a>
+          </div>
+          <div class="preview-all">
+            <a href="#proyectos" class="text-link">Ver todos los proyectos →</a>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /#inicio -->
+
+
+    <!-- ══════════════════════════
+         QUIEN SOY
+    ══════════════════════════ -->
+    <section id="quien-soy">
+
+      <div class="section-page-header reveal">
+        <span class="page-eyebrow">Desarrollador Web</span>
+        <h2 class="page-heading-lg">Quien Soy.</h2>
+      </div>
+
+      <div class="section-2col reveal">
+        <div class="section-label">Sobre mí</div>
+        <div class="about-body">
+          <p>
+            Soy un desarrollador web especializado en <strong>React y TypeScript</strong>, con una sólida
+            base en desarrollo frontend. Actualmente, estoy expandiendo mis habilidades hacia el desarrollo
+            backend con <strong>Node.js</strong>, <strong>Python/FastAPI</strong> y <strong>Java/Spring Boot</strong>.
+            También me estoy adentrando en tecnologías cloud como <strong>AWS y GCP</strong>, así como en el
+            fascinante mundo de la Inteligencia Artificial y Large Language Models (LLMs).
+          </p>
+          <p>
+            Busco unirme a un equipo donde pueda contribuir desde el primer día, mientras continúo creciendo
+            profesionalmente. Me apasiona trabajar en entornos ágiles que valoran la colaboración, la
+            innovación y el aprendizaje continuo.
+          </p>
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            Disponible para nuevas oportunidades
+          </div>
+        </div>
+      </div>
+
+      <div class="section-2col no-border reveal">
+        <div class="section-label">Stack técnico</div>
+        <div class="stack-grid-bordered">
+          <div class="stack-item"><span class="item-cat">Frontend</span><span class="item-name">React</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name">TypeScript</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name">JavaScript</span></div>
+          <div class="stack-item"><span class="item-cat">Backend</span><span class="item-name">Node.js</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name">Python</span></div>
+          <div class="stack-item"><span class="item-cat">Backend</span><span class="item-name">FastAPI</span></div>
+          <div class="stack-item"><span class="item-cat">Lenguaje</span><span class="item-name">Java</span></div>
+          <div class="stack-item"><span class="item-cat">Backend</span><span class="item-name">Spring Boot</span></div>
+          <div class="stack-item"><span class="item-cat">Cloud</span><span class="item-name">AWS</span></div>
+          <div class="stack-item"><span class="item-cat">Cloud</span><span class="item-name">GCP</span></div>
+          <div class="stack-item"><span class="item-cat">Explorando</span><span class="item-name">IA / LLMs</span></div>
+          <div class="stack-item"><span class="item-cat">Metodología</span><span class="item-name">Agile</span></div>
+        </div>
+      </div>
+
+    </section><!-- /#quien-soy -->
+
+
+    <!-- ══════════════════════════
+         PROYECTOS
+    ══════════════════════════ -->
+    <section id="proyectos">
+
+      <div class="projects-header reveal">
+        <div>
+          <span class="page-eyebrow">Trabajo selecto</span>
+          <h2 class="page-heading-lg">Proyectos.</h2>
+        </div>
+        <div class="header-right">
+          <div>
+            <p class="header-desc">
+              Una selección de proyectos recientes que demuestran mi experiencia
+              en desarrollo frontend, backend y tecnologías cloud.
+            </p>
+            <span class="project-count">04 proyectos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mosaic reveal">
+
+        <!-- 01 — full width -->
+        <div class="card full">
+          <div class="card-default">
+            <div>
+              <p class="card-num">Proyecto — 01</p>
+              <div class="card-status">
+                <span class="card-dot"></span>
+                <span class="status-text">En producción</span>
+              </div>
+              <h3 class="card-title">Dashboard de Analítica Interna</h3>
+            </div>
+            <div class="card-tags">
+              <span class="card-tag">React</span>
+              <span class="card-tag">TypeScript</span>
+              <span class="card-tag">FastAPI</span>
+              <span class="card-tag">AWS</span>
+              <span class="card-tag">PostgreSQL</span>
+            </div>
+          </div>
+          <div class="card-overlay">
+            <div>
+              <p class="hover-desc">
+                Plataforma completa de visualización de datos en tiempo real con métricas
+                de negocio, KPIs personalizables y reportes automatizados.
+              </p>
+              <div class="hover-tags">
+                <span class="hover-tag">React</span>
+                <span class="hover-tag">TypeScript</span>
+                <span class="hover-tag">FastAPI</span>
+                <span class="hover-tag">AWS</span>
+                <span class="hover-tag">PostgreSQL</span>
+              </div>
+            </div>
+            <a href="https://github.com/CristhoferMurilloVargas" target="_blank" rel="noopener noreferrer" class="hover-link">Ver en GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="card">
+          <div class="card-default">
+            <p class="card-num">Proyecto — 02</p>
+            <div class="card-status">
+              <span class="card-dot done"></span>
+              <span class="status-text">Completado</span>
+            </div>
+            <h3 class="card-title">API de Notificaciones</h3>
+          </div>
+          <div class="card-overlay">
+            <div>
+              <p class="hover-desc">
+                Sistema de notificaciones multi-canal con soporte para email, SMS y push
+                notifications. Incluye sistema de cola y reintentos.
+              </p>
+              <div class="hover-tags">
+                <span class="hover-tag">Node.js</span>
+                <span class="hover-tag">Express</span>
+                <span class="hover-tag">GCP</span>
+              </div>
+            </div>
+            <a href="https://github.com/CristhoferMurilloVargas" target="_blank" rel="noopener noreferrer" class="hover-link">Ver en GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="card">
+          <div class="card-default">
+            <p class="card-num">Proyecto — 03</p>
+            <div class="card-status">
+              <span class="card-dot"></span>
+              <span class="status-text">En producción</span>
+            </div>
+            <h3 class="card-title">Asistente IA para Docs</h3>
+          </div>
+          <div class="card-overlay">
+            <div>
+              <p class="hover-desc">
+                Asistente inteligente que ayuda a navegar y buscar información en
+                documentación técnica usando procesamiento de lenguaje natural.
+              </p>
+              <div class="hover-tags">
+                <span class="hover-tag">Python</span>
+                <span class="hover-tag">FastAPI</span>
+                <span class="hover-tag">LLMs</span>
+              </div>
+            </div>
+            <a href="https://github.com/CristhoferMurilloVargas" target="_blank" rel="noopener noreferrer" class="hover-link">Ver en GitHub →</a>
+          </div>
+        </div>
+
+        <!-- 04 — full width -->
+        <div class="card full">
+          <div class="card-default">
+            <div>
+              <p class="card-num">Proyecto — 04</p>
+              <div class="card-status">
+                <span class="card-dot wip"></span>
+                <span class="status-text">En desarrollo</span>
+              </div>
+              <h3 class="card-title">Plataforma de Gestión de Tareas</h3>
+            </div>
+            <div class="card-tags">
+              <span class="card-tag">React</span>
+              <span class="card-tag">TypeScript</span>
+              <span class="card-tag">Spring Boot</span>
+              <span class="card-tag">WebSockets</span>
+            </div>
+          </div>
+          <div class="card-overlay">
+            <div>
+              <p class="hover-desc">
+                Sistema colaborativo de gestión de proyectos con actualizaciones en tiempo
+                real, asignación de tareas y seguimiento de progreso.
+              </p>
+              <div class="hover-tags">
+                <span class="hover-tag">React</span>
+                <span class="hover-tag">TypeScript</span>
+                <span class="hover-tag">Spring Boot</span>
+                <span class="hover-tag">WebSockets</span>
+              </div>
+            </div>
+            <a href="https://github.com/CristhoferMurilloVargas" target="_blank" rel="noopener noreferrer" class="hover-link">Ver en GitHub →</a>
+          </div>
+        </div>
+
+      </div><!-- /.mosaic -->
+
+    </section><!-- /#proyectos -->
+
+
+    <!-- ══════════════════════════
+         CONTACTO
+    ══════════════════════════ -->
+    <section id="contacto">
+
+      <div class="section-page-header reveal">
+        <span class="page-eyebrow">Hablemos</span>
+        <h2 class="page-heading-lg">Ponerse en <em>contacto.</em></h2>
+      </div>
+
+      <div class="section-2col reveal">
+        <div class="section-label">Canales</div>
+        <div class="channels-list">
+          <a class="channel-row" href="mailto:cristhofer.murillo.vargas@est.una.ac.cr">
+            <div>
+              <span class="channel-platform">Email</span>
+              <span class="channel-value">cristhofer.murillo.vargas@est.una.ac.cr</span>
+            </div>
+            <span class="channel-arrow">↗</span>
+          </a>
+          <a class="channel-row" href="https://www.linkedin.com/in/cristhofer-murillo-vargas-3b08763b1/" target="_blank" rel="noopener noreferrer">
+            <div>
+              <span class="channel-platform">LinkedIn</span>
+              <span class="channel-value">/in/cristhofer-murillo-vargas</span>
+            </div>
+            <span class="channel-arrow">↗</span>
+          </a>
+          <a class="channel-row" href="https://github.com/CristhoferMurilloVargas" target="_blank" rel="noopener noreferrer">
+            <div>
+              <span class="channel-platform">GitHub</span>
+              <span class="channel-value">@CristhoferMurilloVargas</span>
+            </div>
+            <span class="channel-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="section-2col no-border reveal">
+        <div class="section-label">Mensaje directo</div>
+        <div>
+          <div class="form-fields">
+            <div class="field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="6"></textarea>
+            </div>
+          </div>
+          <div class="form-footer">
+            <p class="form-note">Respondo en menos de 24h</p>
+            <button class="btn-submit" type="submit">Enviar →</button>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /#contacto -->
+
+
+    <!-- ══════════════════════════
+         FOOTER
+    ══════════════════════════ -->
+    <footer class="site-footer">
+      <span class="footer-copy">Portfolio · 2026</span>
+      <div class="footer-links">
+        <a href="mailto:cristhofer.murillo.vargas@est.una.ac.cr">Contacto</a>
+        <a href="https://github.com/CristhoferMurilloVargas" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/cristhofer-murillo-vargas-3b08763b1/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+
+  </div><!-- /.wrapper -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
